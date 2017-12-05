@@ -54,7 +54,7 @@ w = np.array([1., 1., 1.])
 # print x
 # print y
 # print X
-# print f(X, ground_truth_w).reshape((2,2))
+# print f(X, w).reshape((2,2))
 
 ### create 2 dim data ###
 m = 10
