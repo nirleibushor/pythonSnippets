@@ -60,7 +60,8 @@ w = np.array([1., 1., 1.])
 m = 10
 values_range = np.linspace(0, 1, num=m)
 x_plot, y_plot = np.meshgrid(values_range, values_range)
-X = np.stack((y_plot.reshape(m * m,), x_plot.reshape(m * m,)))
+m_squared = m * m
+X = np.stack((y_plot.reshape(m_squared,), x_plot.reshape(m_squared,)))
 
 
 ### plot to see x,y distribution ###
